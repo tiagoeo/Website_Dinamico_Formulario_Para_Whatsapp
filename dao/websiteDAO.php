@@ -3,7 +3,7 @@
     class websiteDAO{
         private $host = 'localhost';
         private $user = 'root';
-        private $password = 'root';
+        private $password = '';
         private $banco = 'websitedinamicodb';
         private $pdo;
         

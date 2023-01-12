@@ -75,7 +75,7 @@
                 <!-- // Carousel -->
 
                 <!-- Formulário de contato -->
-                <div id="contato" class="form-signin w-100 m-auto d-print-none">
+                <div id="contato" class="form-signin w-50 m-auto d-print-none">
                     <hr class="featurette-divider">
                     <div class="container marketing my-1 p-3 bg-white rounded shadow-sm">
                         <form class="text-center" id="frmContato">
@@ -131,13 +131,16 @@
         </main>
         <!-- // Main -->
         
+        <!-- Modal -->
+        <!-- // Modal -->
+
         <!-- Footer -->
         <div class="text-left" id="footer">
             <?php include(__DIR__.'/static/main/footer.php'); ?>
         </div>
         <!-- // Footer -->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <script>
             function contato_whatsapp(n){
                 switch (n) {
